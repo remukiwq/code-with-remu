@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #023a55;
+    font-family: 'Roboto',sans-serif;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+
+}
+.box h2{
+    color: #1d455a;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+.box p{
+    color: #79868e;
+    font-size: 18px;
+    margin: 0;
+}
+.box input{
+font-size: 18px;
+width: 60%;
+border: none;
+padding: 15px 20px ;
+margin-right: 10px;
+outline: none;
+background:#EFEFEF;
+}
+.box button{
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: #023953;
+}
